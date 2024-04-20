@@ -10,6 +10,8 @@ nav {
     color: #ffffff;
     height: 80px;
     width: 100%;
+    border-bottom: solid rgba(0, 0, 0, 0.425) 0.5px;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.245);
 }
 
 .enlace {
@@ -57,7 +59,7 @@ nav ul li a {
 
 nav ul li a:hover {
     transition: 0.2s;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
     border-radius: 6px;
 }
