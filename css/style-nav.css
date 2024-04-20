@@ -57,5 +57,7 @@ nav ul li a {
 
 nav ul li a:hover {
     transition: 0.2s;
-    background-color: gray;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
 }
