@@ -14,7 +14,7 @@ nav {
 
 .enlace {
     position: absolute;
-    padding: 10px 60px 10px;
+    padding: 10px 60px 40px;
 }
 
 .logo {
@@ -30,13 +30,13 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    line-height: 80px;
+    line-height: 90px;
 }
 
 nav ul li a {
     color: #000000;
     font-size: 30px;
-    padding: 7px 3px;
+    padding: 7px 18px 10px;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: 'Bebas Neue';
@@ -53,4 +53,9 @@ nav ul li a {
 
 #check {
     display: none;
+}
+
+nav ul li a:hover {
+    transition: 0.2s;
+    background-color: gray;
 }

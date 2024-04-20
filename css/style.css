@@ -7,6 +7,10 @@
         background-color: rgba(128, 128, 128, 0.866); 
         z-index: 1004;
     } */
+* {
+    overflow: hidden;
+}
+
 footer {
     background: #00000036;
     color: white;
