@@ -1,0 +1,24 @@
+* {
+    text-transform: uppercase;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    margin-right: 36px;
+}
+
+.container img {
+    margin: 30px 0px 30px 26%;
+    box-shadow: rgba(0, 0, 0, 0.41) 9px 5px 30px;
+    height: 600px;
+}
+
+.container h4 {
+    margin-top: 3px;
+}
+
+.container p {
+    margin-left: 10%;
+    margin-right: 10%;
+}

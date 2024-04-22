@@ -1,0 +1,79 @@
+* {
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: 'Bebas Neue';
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+    text-align: center;
+    margin-left: 16%;
+}
+
+.card {
+    width: 100%;
+    margin: 90px 20px 0px 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3%);
+}
+
+.card:hover a > .saber-mas {
+    text-decoration: underline;
+}
+
+.card img {
+    width: 100%;
+    height: 210px;
+}
+
+.card .contenido {
+    padding: 15px;
+    text-align: center;
+}
+
+.card .contenido p {
+    line-height: 1.5;
+    color: #6a6a6a;
+}
+
+.card .contenido h2 {
+    font-size: 29px;
+    margin-bottom: 15px;
+}
+
+#titulo {
+    text-align: center;
+    padding-top: 6%;
+    padding-right: 2%;
+    font-size: 70px;
+}
+
+.saber-mas {
+    display: flex;
+    position: relative;
+    margin-left: 41%;
+    margin-bottom: 9px;
+}
+
+
+/* .saber-mas {
+    text-decoration: underline;
+    display: flex;
+    max-width: 1100px;
+    width: 100%;
+    margin: 0px 20px 0px 20px;
+    text-align: center;
+    margin-left: 36%;
+} */
