@@ -93,26 +93,3 @@ footer p {
         margin-left: -800%;
     }
 }
-
-
-@keyframes cambiocolor {
-    0% {
-        color: white;
-    }
-
-    25% {
-        color: #8cbcfb;
-    }
-
-    50% {
-        color: white;
-    }
-
-    75% {
-        color: #8cbcfb;
-    }
-
-    100% {
-        color: white;
-    }
-}
