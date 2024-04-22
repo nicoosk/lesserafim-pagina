@@ -1,4 +1,6 @@
 * {
+    color: black;
+    text-decoration: none;
     text-transform: uppercase;
     font-family: "Bebas Neue";
 }
@@ -22,4 +24,30 @@
 .container p {
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.back-button {
+    display: flex;
+    position: absolute;
+    margin: 2% 0px 0px 2%;
+    z-index: 2000;
+}
+
+.back-arrow {
+    display: flex;
+    position: absolute;
+    height: 18px;
+    margin-top: 3px;
+}
+
+.back-button h2 {
+    margin: 0px 0px 3px 28px;
+}
+
+.back-button:hover {
+    text-decoration: underline;
+}
+
+.back-button:hover > a img{
+    
 }
