@@ -38,7 +38,7 @@ footer p {
     display: flex;
     padding: 0;
     width: 900%;
-    animation: slide 50s infinite alternate ease-in-out;
+    animation: slide 30s infinite alternate ease-in-out;
 }
 
 .slider-frame li {
